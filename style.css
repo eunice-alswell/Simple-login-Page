@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    padding: 60px 1px;
+    height: 100%;
+}
+
+#section {
+    background-color: aqua;
+    background-image: url(better.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: auto;
+}
+
+.card {
+    width: 50vh;
+    margin: auto;
+    padding: 1px 1px 27px 1px;
+    text-align: center;
+    border-radius: 9.5px;
+    background-color: ghostwhite;
+    box-shadow: 1px 5px 10px rgba(47, 83, 201, 0.767);
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form {
+    margin-bottom: 17px;
+    white-space: normal;
+}
+
+.form-control {
+    display: inline-block;
+    margin: 20px auto;
+    border-radius: 5px;
+    height: 35px;
+    width: 260px;
+    border-top: none;
+    border-left: 3px solid darkblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: black;
+}
+
+.btn {
+    width: 160px;
+    border-radius: 50px;
+    border: 0;
+    padding: 9px;
+    font-size: medium;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(147, 37, 238);
+    color: white;
+    box-shadow: 3px 7px 9px rgba(126, 136, 223, 0.438);
+}
+
+.btn:hover {
+    opacity: scale(1.0);
+}
+
+img {
+    width: 100%;
+    object-fit: scale-down;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 35%;
+    border-bottom-right-radius: 35%;
+    border-bottom: rgb(160, 46, 65);
+    border-top: rgb(160, 46, 65);
+}
